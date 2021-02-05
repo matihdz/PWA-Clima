@@ -7,6 +7,25 @@
     <title>PWA Clima</title>
 </head>
 <body>
-    <h1>Hola mundo</h1>
+    <main id="main-container" class="main-container">
+        <div class="info-container" class="info">
+            <p>Quillota / CL</p>
+            <p>Clear sky</p>
+            <p>-4 °C</p>
+        </div>
+        <form id="form" class="form-container">
+            <label for="city">City name</label>
+            <input id="city" type="text">
+
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="CL">Chile</option>
+                <option value="AR">Argentina</option>
+                <option value="AR">Brazil</option>
+            </select>
+
+            <button>DONE</button>
+        </form>
+    </main>
 </body>
 </html>

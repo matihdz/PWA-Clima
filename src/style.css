@@ -1,4 +1,43 @@
-body{
-    background-color: blue;
-    color: #fff;
+
+/* Variables */
+:root{
+    --first-color: rgb(0, 131, 98);
+    --second-color: rgb(139, 90, 0);
+    --third-color: rgb(149, 149, 149);
+    --text-color: rgb(233, 233, 233);
 }
+
+/* Global font */
+@font-face{
+    font-family: "onlyFont";
+    src: url("./assets/fonts/poppins-light.ttf");
+}
+
+/* Reset defaults styles */
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(0,125,130,1) 15%, rgba(0,65,7,1) 100%);
+
+    font-family: 'onlyFont';
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+button{
+    border: none;
+}
+
+
