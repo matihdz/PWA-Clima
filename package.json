@@ -1,0 +1,21 @@
+{
+  "name": "appclima",
+  "version": "1.0.0",
+  "description": "PWA del Clima",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start:dev": "webpack serve"
+  },
+  "author": "Matias Iturrieta",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^5.0.0",
+    "jest": "^26.6.3",
+    "mini-css-extract-plugin": "^1.3.5",
+    "webpack": "^5.20.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
