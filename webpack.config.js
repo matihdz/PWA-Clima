@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: ['./src/app.js', './src/js/validateForm.js', './src/js/API.js'],
   output: {
     path: path.resolve(__dirname, 'build'),
@@ -17,7 +17,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-    template: './src/index.html'
+      template: './src/index.html',
+      favicon: './src/assets/icons/icon-192x192.png'
     }),
     new MiniCssExtractPlugin(),
   ],
