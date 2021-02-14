@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "jest",
-    "start:dev": "webpack serve"
+    "dev": "webpack serve"
   },
   "author": "Matias Iturrieta",
   "license": "ISC",
@@ -17,6 +17,8 @@
     "url-loader": "^4.1.1",
     "webpack": "^5.20.2",
     "webpack-cli": "^4.5.0",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^3.11.2",
+    "webpack-pwa-manifest": "^4.3.0",
+    "workbox-webpack-plugin": "^6.1.0"
   }
 }

@@ -24,6 +24,8 @@ body{
     background: linear-gradient(90deg, rgba(0,125,130,1) 15%, rgba(0,65,7,1) 100%);
 
     font-family: 'onlyFont';
+    margin: 0;
+    padding: 0;
 }
 
 a{

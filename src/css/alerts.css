@@ -1,0 +1,13 @@
+.alert-warning{
+    background-color: rgb(117, 0, 0);
+    color: #fff;
+    font-size: 1.6rem;
+
+    width: 40%;
+
+    border-radius: 3px;
+    border: 3px double rgb(0, 0, 0);
+
+    text-align: center;
+    padding: 1.3rem;
+}
