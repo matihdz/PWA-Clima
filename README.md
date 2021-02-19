@@ -9,4 +9,4 @@ The project was developed as a practice. The knowledge put into practice:
 - Functional programming paradigm
 - Use storage sources, in this case LocalStorage
 - Form error handling
-- API REST ( OpenWeatherMap )
+- API ( OpenWeatherMap )
